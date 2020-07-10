@@ -1,7 +1,8 @@
-//#define DOCTEST_CONFIG_DISABLE
 #ifndef COMMON_H
 #define COMMON_H
-//#include <SFML\Graphics.hpp>
+//#define DOCTEST_CONFIG_DISABLE
+#include "doctest.h"
+#include <SFML\Graphics.hpp>
 #include <algorithm>
 #include <cassert>
 #include <chrono>
